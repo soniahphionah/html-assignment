@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html basic template </title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 40px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 40px;
+        }
+        table, th ,td {
+            border: 1px solid #fff;
+        }
+        th, td{
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: bisque;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> welcome to my html web page</h1>
+    </header>
+    <h2> registration form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        <input type="submit" value="Register">
+    </form>
+    <h2>User Information</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>email</th>
+            <th>phone Number</th>
+        </tr>
+        <tr>
+            <td>Nicole Akamran</td>
+            <td>nicoleakamran24@gmail.com</td>
+            <td>0712345678</td>
+        </tr>
+        <tr>
+            <td>Tracy Akinyi</td>
+            <td>tracyakinyi12@gmail.com</td>
+            <td>0787654321</td>
+        </tr>
+    </table>
+    <h2>Example Image</h2>
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-photo%2Fsummer-lifestyle-two-friends-smiling-having-fun-beautiful-sunset-top-mountain-tight-black-dresses-caucasian-girl-black-girl-with-long-braids_11611493.htm&psig=AOvVaw0bQ2k_KqXnfrscU3mD1q-x&ust=1724859208203000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDZp9i_lYgDFQAAAAAdAAAAABAE"alt="freepik.Image">
+    <p>For more information, visit <a href="https://google.com" target="_blank">Google</a>.</p>
+</body>
+</html>
